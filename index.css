@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    text-align: center;
+    width: 550px;
+    height: 729px;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.84px;
+}
+
+h3{
+    color: #E0F2FE;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 31px;
+}
+
+p {
+    width: 346px;
+    height: 25px;
+    margin: 5px auto 18px auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #075985;
+    color: #fff;
+    width: 550px;
+    height: 285px;
+}
+
+.body {
+    background-color: #1F2937;
+    color: #E0F2FE;
+    border: 1px solid #1F2937;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #273549;
+    width: 500px;
+    height: 108.573px;
+    border-radius: 4.681px 0px 0px 0px;
+    background: #273549;
+}
+
+#conv-btn {
+    display: inline-flex;
+    padding: 9px 27.5px;
+    justify-content: center;
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    align-items: center;
+    margin: 15px 0 34px 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+#input-fld {
+    width: 117px;
+    height: 83px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px; /* 42.057% */
+    margin: 30px 0 10px 0;
+    background-color: #075985;
+    border-radius: 5px;
+    border: 2px solid #7DD3FC;
+}
+
+#lth {
+    margin: 36px 25px 24px 25px;
+}
+
+#vol {
+    margin: 0 25px 24px 25px;
+}
+
+#mass{
+    margin: 0 25px 36px 25px;
+}
