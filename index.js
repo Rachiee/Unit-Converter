@@ -10,17 +10,21 @@ let resultEl1 = document.getElementById("result-el1")
 let resultEl2 = document.getElementById("result-el2")
 let resultEl3 = document.getElementById("result-el3")
 
+const meterToFeet = 3.281
+const litreToGallon = 0.264
+const kiloToPound = 2.204
+
 
 convBtn.addEventListener("click" , function() {
     resultEl1.textContent = ""
     resultEl2.textContent = ""
     resultEl3.textContent = ""
-    let productLth1 = (inputFld.value * 3.281).toFixed(3)
-    let productLth2 = (inputFld.value / 3.281).toFixed(3)
-    let productVol1 = (inputFld.value * 0.264).toFixed(3)
-    let productVol2 = (inputFld.value / 0.264).toFixed(3)
-    let productMass1 = (inputFld.value * 2.204).toFixed(3)
-    let productMass2 = (inputFld.value / 2.204).toFixed(3)
+    let productLth1 = (inputFld.value * meterToFeet).toFixed(3)
+    let productLth2 = (inputFld.value / meterToFeet).toFixed(3)
+    let productVol1 = (inputFld.value * litreToGallon).toFixed(3)
+    let productVol2 = (inputFld.value / litreToGallon).toFixed(3)
+    let productMass1 = (inputFld.value * kiloToPound).toFixed(3)
+    let productMass2 = (inputFld.value / kiloToPound).toFixed(3)
     if (inputFld.value === "1") {
         resultEl1.textContent += `${inputFld.value} metre = ${productLth1} feet | ${inputFld.value} foot = ${productLth2} metres`
         resultEl2.textContent += `${inputFld.value} litre = ${productVol1} gallons | ${inputFld.value} gallon = ${productVol2} litres`
